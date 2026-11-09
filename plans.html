@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Data plans | AG CORE Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Browse MTN, Airtel and Glo data plans from AG CORE Services. Choose a plan and send your order through WhatsApp.">
+<meta name="theme-color" content="#2A44E6">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Figtree:wght@400;500;600;700&family=Martian+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="curtain" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+<header class="site-head"><div class="wrap head-row"><a class="brand" href="./" aria-label="AG CORE Services, home"><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="var(--ink)"/>
+<path d="M50 32 A18 18 0 1 1 44.7 19.3" fill="none" stroke="var(--paper)" stroke-width="6" stroke-linecap="round"/>
+<path d="M50 32 H39" stroke="var(--paper)" stroke-width="6" stroke-linecap="round"/>
+<rect x="22" y="36" width="5" height="8" rx="1.5" fill="var(--cobalt)"/><rect x="29" y="30" width="5" height="14" rx="1.5" fill="var(--cobalt)"/>
+<circle cx="49.5" cy="17.5" r="3.6" fill="var(--amber)"/></svg><span class="brand-word"><b>AG CORE</b><small>SERVICES</small></span></a>
+<nav class="nav" aria-label="Main"><a href="./">Home</a><a href="plans.html" aria-current="page">Data plans</a><a href="bills.html">Airtime & bills</a><a href="how-to-order.html">How to order</a><a href="faq.html">FAQs</a><a href="contact.html">Feedback</a></nav>
+<a class="btn head-cta wa" href="https://wa.me/2348033915483" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.4-4.2A8 8 0 1 1 8.6 19z"/><path d="M9 10.5c.5 2 2.2 3.8 4.5 4.5l1.3-1.3 2 1"/></svg> Chat on WhatsApp</a>
+<button class="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="drawer"><span class="l1"></span><span class="l2"></span></button>
+</div></header>
+<div class="drawer" id="drawer" aria-hidden="true"><nav aria-label="Mobile"><a href="./">Home<small>01</small></a><a href="plans.html" aria-current="page">Data plans<small>02</small></a><a href="bills.html">Airtime & bills<small>03</small></a><a href="how-to-order.html">How to order<small>04</small></a><a href="faq.html">FAQs<small>05</small></a><a href="contact.html">Feedback<small>06</small></a></nav>
+<a class="btn amber wa" href="https://wa.me/2348033915483" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.4-4.2A8 8 0 1 1 8.6 19z"/><path d="M9 10.5c.5 2 2.2 3.8 4.5 4.5l1.3-1.3 2 1"/></svg> Chat on WhatsApp</a></div>
+<main>
+<section class="intro"><div class="wrap"><span class="eyebrow">FIND YOUR BUNDLE</span>
+<h1 class="display"><span class="ln"><span>Choose a</span></span><span class="ln"><span style="animation-delay:.1s;color:var(--cobalt)">data plan</span></span></h1>
+<p class="lede">Select a network, filter the available plans and prepare your WhatsApp order.</p></div></section>
+<section class="band tight" style="padding-top:0"><div class="wrap finder" id="finder">
+<aside class="panel">
+<div class="nets" role="group" aria-label="Network"><span class="pill"></span><button data-net="mtn" aria-pressed="true">MTN</button><button data-net="airtel" aria-pressed="false">Airtel</button><button data-net="glo" aria-pressed="false">Glo</button></div>
+<div class="field"><label for="phone">Recipient's phone number</label><input id="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="080•••••••••"><span class="hint">Enter the number that should receive the data.</span></div>
+<div class="field" id="size-field"><label for="q">Data size</label><input id="q" type="text" inputmode="text" autocomplete="off" placeholder="e.g. 2GB">
+<div class="chips" role="group" aria-label="Quick sizes"><button type="button" data-size="500MB">500MB</button><button type="button" data-size="1GB">1GB</button><button type="button" data-size="2GB">2GB</button><button type="button" data-size="3GB">3GB</button><button type="button" data-size="5GB">5GB</button><button type="button" data-size="10GB">10GB</button><button type="button" data-size="20GB">20GB</button></div>
+<span class="hint">Type the size you want, or tap one.</span></div>
+<div class="two"><div class="field"><label for="val">Validity</label><select id="val"><option value="any">Any validity</option><option value="1">1 day</option><option value="2">2 days</option><option value="3">3 days</option><option value="5">5 days</option><option value="7">7 days</option><option value="14">14 days</option><option value="30">30 days</option></select></div>
+<div class="field"><label for="sort">Sort by</label><select id="sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="big">Largest data first</option></select></div></div>
+<div class="order-sum" id="order-sum" aria-live="polite"></div>
+<button type="button" class="btn amber wa order-btn" id="order-btn"><svg class="wa-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.4-4.2A8 8 0 1 1 8.6 19z"/><path d="M9 10.5c.5 2 2.2 3.8 4.5 4.5l1.3-1.3 2 1"/></svg> Send order on WhatsApp <span class="arr">→</span></button>
+<p class="fine">Prices are guide prices and can change. Confirm availability and the final price with AG CORE before payment.</p>
+</aside>
+<div><div class="results-head"><span class="count" id="count">MTN</span></div>
+<div class="plans" id="plans"></div>
+<div class="empty" id="empty" hidden><span class="eyebrow">FIND YOUR BUNDLE</span><h3>Can't find the plan you need?</h3><p>Ask us for current options or a plan that is not listed here.</p><a class="btn wa" href="https://wa.me/2348033915483" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.4-4.2A8 8 0 1 1 8.6 19z"/><path d="M9 10.5c.5 2 2.2 3.8 4.5 4.5l1.3-1.3 2 1"/></svg> Ask for current plans <span class="arr">→</span></a></div>
+</div></div></section>
+<section class="band" id="flyers"><div class="wrap"><div class="sec-head rv"><span class="eyebrow">SAVE &amp; SHARE</span><h2 class="h2">Data plan flyers</h2><p class="lede">Open a flyer to view it clearly, or save it to your phone.</p></div>
+<div class="flyers"><div class="flyer rv"><a class="flyer-art" href="assets/mtn-data-plans.jpg" target="_blank" rel="noopener" style="--netc:var(--mtn);--on-net:#1A1300" aria-label="AG CORE MTN data plans flyer">
+<span class="fa-grid"></span><span class="fa-t"><span>AG CORE</span><span>SAVE &amp; SHARE</span></span><span class="fa-n">MTN<br>data<br>plans</span>
+<span class="fa-bars" aria-hidden="true"><i style="height:28px"></i><i style="height:48px"></i><i style="height:70px"></i><i style="height:94px"></i></span></a>
+<div class="flyer-row"><h3>MTN data plans</h3><a class="link-arrow" href="assets/mtn-data-plans.jpg" download>Save flyer ↓</a></div></div><div class="flyer rv"><a class="flyer-art" href="assets/airtel-data-plans.jpg" target="_blank" rel="noopener" style="--netc:var(--airtel);--on-net:#FFFFFF" aria-label="AG CORE Airtel data plans flyer">
+<span class="fa-grid"></span><span class="fa-t"><span>AG CORE</span><span>SAVE &amp; SHARE</span></span><span class="fa-n">Airtel<br>data<br>plans</span>
+<span class="fa-bars" aria-hidden="true"><i style="height:28px"></i><i style="height:48px"></i><i style="height:70px"></i><i style="height:94px"></i></span></a>
+<div class="flyer-row"><h3>Airtel data plans</h3><a class="link-arrow" href="assets/airtel-data-plans.jpg" download>Save flyer ↓</a></div></div><div class="flyer rv"><a class="flyer-art" href="assets/glo-data-plans-flyer.png" target="_blank" rel="noopener" style="--netc:var(--glo);--on-net:#FFFFFF" aria-label="AG CORE Glo data plans flyer">
+<span class="fa-grid"></span><span class="fa-t"><span>AG CORE</span><span>SAVE &amp; SHARE</span></span><span class="fa-n">Glo<br>data<br>plans</span>
+<span class="fa-bars" aria-hidden="true"><i style="height:28px"></i><i style="height:48px"></i><i style="height:70px"></i><i style="height:94px"></i></span></a>
+<div class="flyer-row"><h3>Glo data plans</h3><a class="link-arrow" href="assets/glo-data-plans-flyer.png" download>Save flyer ↓</a></div></div></div></div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+<div class="foot-top">
+<div><a class="brand" href="./" aria-label="AG CORE Services, home"><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="var(--ink)"/>
+<path d="M50 32 A18 18 0 1 1 44.7 19.3" fill="none" stroke="var(--paper)" stroke-width="6" stroke-linecap="round"/>
+<path d="M50 32 H39" stroke="var(--paper)" stroke-width="6" stroke-linecap="round"/>
+<rect x="22" y="36" width="5" height="8" rx="1.5" fill="var(--cobalt)"/><rect x="29" y="30" width="5" height="14" rx="1.5" fill="var(--cobalt)"/>
+<circle cx="49.5" cy="17.5" r="3.6" fill="var(--amber)"/></svg><span class="brand-word"><b>AG CORE</b><small>SERVICES</small></span></a><p class="tag">Data recharge • Airtime • VTU services</p><p class="tag">From Skills to Opportunity.</p></div>
+<div><h4>AG CORE</h4><ul><li><a href="./">Home</a></li><li><a href="plans.html">Data plans</a></li><li><a href="bills.html">Airtime & bills</a></li><li><a href="how-to-order.html">How to order</a></li><li><a href="faq.html">FAQs</a></li><li><a href="contact.html">Feedback</a></li><li><a href="plans.html#flyers">Flyers</a></li></ul></div>
+<div><h4>Call</h4><ul><li><a href="tel:+2349120258280">+234 912 025 8280</a></li><li><a href="tel:+2348033915483">+234 803 391 5483</a></li><li><a href="https://wa.me/2348033915483" target="_blank" rel="noopener">Chat on WhatsApp →</a></li></ul></div>
+</div>
+<div class="foot-word" aria-hidden="true">AG CORE</div>
+<div class="foot-bot"><span>© AG CORE Services. Prices and availability may change.</span><span>FAST • SIMPLE • CONVENIENT</span></div>
+</div></footer>
+<a class="fab" href="https://wa.me/2348033915483" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.4-4.2A8 8 0 1 1 8.6 19z"/></svg></a>
+<script src="plans.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
